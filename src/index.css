@@ -1,2 +1,59 @@
+@import url("https://fonts.googleapis.com/css2?family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap");
+
 @import "tailwindcss";
 @plugin "daisyui";
+
+/* CustomStyles */
+body {
+  font-family: "Urbanist", sans-serif;
+  background-color: #eaeced;
+}
+
+/* NavbarAndFooterStyles */
+.logoBtn {
+  transition-duration: 0.3s;
+}
+.logoBtn:hover {
+  cursor: pointer;
+  color: #303030 !important;
+}
+.footerLogo {
+  cursor: pointer;
+}
+.fastLogo {
+  transition-duration: 0.3s;
+}
+.logoBtn:hover .fastLogo,
+.footerLogo:hover .fastLogo,
+.navbar a:hover {
+  color: #caeb66;
+  background-color: transparent;
+}
+.navbar a {
+  transition-duration: 0.3s;
+  font-size: 16px;
+  font-weight: 500;
+}
+.navbar .active {
+  background-color: transparent;
+  color: #caeb66;
+  text-decoration: underline;
+}
+.navItem {
+  color: #606060;
+}
+.btnSignIn {
+  border: 2px solid #606060;
+  border-radius: 16px;
+  font-size: 20px;
+  font-weight: 700;
+}
+.btnSignIn:hover {
+  border-color: #caeb66;
+}
+.btnRider {
+  border: 2px solid #caeb66;
+}
+.btnRider:hover {
+  border-color: #606060;
+}
